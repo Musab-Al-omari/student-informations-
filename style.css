@@ -1,0 +1,56 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    background-image: url(/bg.jpg);
+    background-size: cover;
+    color: #eee;
+}
+h1{
+    text-align: center;
+    font-size: xx-large;
+    display: inline-block;
+}
+header{
+    background-color: blue;
+    color: #eee;
+
+}
+header nav {
+    float: right;
+    
+}
+header nav a{
+    /* text-decoration: none; */
+    padding: 30px;
+    color: #eee;
+    padding-top: 10px;
+}
+main{
+    display:flex;
+}
+#inputSection{
+    position: relative;
+    display: inline;
+    top: 50px;
+    left: 50px;
+    width: 300px;
+    height: 300px;
+    background-color: tomato;
+    
+}
+#outputSection{
+    position: relative;
+    display:inline;
+    top: 50px;
+    left: 500px;
+    width: 600px;
+    height: 300px;
+    background-color: tomato;
+    
+}
+
+th{
+    padding: 10px;
+}
+tr{
+    padding: 10px;
+}
